@@ -1,0 +1,5 @@
+require 'yaml'
+
+variable.to_yaml
+
+new_file = file.new('filename.bleh', "w+")
